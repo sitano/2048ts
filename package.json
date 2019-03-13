@@ -2,12 +2,18 @@
   "name": "2048ts",
   "version": "1.0.0",
   "description": "A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).",
-  "main": "",
+  "private": true,
   "dependencies": {},
   "devDependencies": {
     "@types/gulp": "^4.0.6",
+    "@types/node": "^11.11.3",
+    "@types/webpack": "^4.4.25",
+    "awesome-typescript-loader": "^5.2.1",
     "gulp": "^4.0.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
     "ts-node": "^8.0.3",
+    "tsconfig-paths": "^3.8.0",
     "typescript": "^3.3.3333"
   },
   "scripts": {

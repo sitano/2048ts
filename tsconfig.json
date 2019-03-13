@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "target": "es6",
+      "target": "es5",
       "module": "commonjs",
       "declaration": false,
       "removeComments": true,
@@ -14,14 +14,12 @@
       "noImplicitAny": true,
       "noImplicitReturns": true,
       "noImplicitUseStrict": false,
-      "noFallthroughCasesInSwitch": true
+      "noFallthroughCasesInSwitch": true,
+      "outDir": "./dist/"
     },
     "exclude": [
       "node_modules",
-      "dist",
-      "typings/browser.d.ts",
-      "typings/browser",
-      "src"
+      "dist"
     ],
     "compileOnSave": false
   }
